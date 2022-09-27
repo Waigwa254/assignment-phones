@@ -22,4 +22,22 @@ h1{
     font-family: "Arial Black";
     font-size: 25px;
 }
+table{
+    font-family: Algerian;
+    width: 100%;
+    color: fuchsia;
+    border-collapse: collapse;
+}
+td,th{
+    border: 2px dashed crimson;
+    padding: 10px;
+    text-align: center;
+}
+tr:nth-child(even){
+    background-color: fuchsia;
+
+}
+th{
+    color: lightseagreen;
+}
 
